@@ -1,6 +1,6 @@
-package com.lambdaschool.starthere.repository;
+package com.lambdaschool.bookstore.repository;
 
-import com.lambdaschool.starthere.models.Book;
+import com.lambdaschool.bookstore.models.Book;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;

@@ -1,20 +1,17 @@
-package com.lambdaschool.starthere.controllers;
+package com.lambdaschool.bookstore.controllers;
 
-import com.lambdaschool.starthere.models.Book;
-import com.lambdaschool.starthere.models.ErrorDetail;
-import com.lambdaschool.starthere.services.BookService;
+import com.lambdaschool.bookstore.models.Book;
+import com.lambdaschool.bookstore.models.ErrorDetail;
+import com.lambdaschool.bookstore.services.BookService;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
-import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import javax.servlet.http.HttpServletRequest;
-import java.net.URI;
 import java.util.ArrayList;
 
 

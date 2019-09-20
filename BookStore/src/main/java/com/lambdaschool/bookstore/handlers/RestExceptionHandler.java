@@ -1,9 +1,9 @@
-package com.lambdaschool.starthere.handlers;
+package com.lambdaschool.bookstore.handlers;
 
-import com.lambdaschool.starthere.exceptions.ResourceFoundException;
-import com.lambdaschool.starthere.exceptions.ResourceNotFoundException;
-import com.lambdaschool.starthere.exceptions.ValidationError;
-import com.lambdaschool.starthere.models.ErrorDetail;
+import com.lambdaschool.bookstore.exceptions.ResourceFoundException;
+import com.lambdaschool.bookstore.exceptions.ResourceNotFoundException;
+import com.lambdaschool.bookstore.exceptions.ValidationError;
+import com.lambdaschool.bookstore.models.ErrorDetail;
 import org.springframework.beans.TypeMismatchException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

@@ -1,4 +1,4 @@
-package com.lambdaschool.starthere.models;
+package com.lambdaschool.bookstore.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class Book extends Auditable
+public class Book
 {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

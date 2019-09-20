@@ -1,8 +1,8 @@
-package com.lambdaschool.starthere.services;
+package com.lambdaschool.bookstore.services;
 
-import com.lambdaschool.starthere.exceptions.ResourceNotFoundException;
-import com.lambdaschool.starthere.models.Useremail;
-import com.lambdaschool.starthere.repository.UseremailRepository;
+import com.lambdaschool.bookstore.exceptions.ResourceNotFoundException;
+import com.lambdaschool.bookstore.models.Useremail;
+import com.lambdaschool.bookstore.repository.UseremailRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;

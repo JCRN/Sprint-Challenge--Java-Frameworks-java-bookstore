@@ -1,8 +1,8 @@
-package com.lambdaschool.starthere.services;
+package com.lambdaschool.bookstore.services;
 
-import com.lambdaschool.starthere.models.Book;
-import com.lambdaschool.starthere.repository.AuthorsRepository;
-import com.lambdaschool.starthere.repository.BookRepository;
+import com.lambdaschool.bookstore.models.Book;
+import com.lambdaschool.bookstore.repository.AuthorsRepository;
+import com.lambdaschool.bookstore.repository.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;

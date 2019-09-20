@@ -1,4 +1,4 @@
-package com.lambdaschool.starthere.config;
+package com.lambdaschool.bookstore.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -36,7 +36,7 @@ public class Swagger2Config
                                    .description("A starting application for developing Java Spring Back End Projects")
                                    .contact(new Contact("John Mitchell", "http://www.lambdaschool.com", "john@lambdaschool.com"))
                                    .license("MIT")
-                                   .licenseUrl("https://github.com/LambdaSchool/java-starthere/blob/master/LICENSE")
+                                   .licenseUrl("https://github.com/LambdaSchool/java-bookstore/blob/master/LICENSE")
                                    .version("1.0.0")
                                    .build();
     }

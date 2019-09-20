@@ -1,4 +1,4 @@
-package com.lambdaschool.starthere.exceptions;
+package com.lambdaschool.bookstore.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

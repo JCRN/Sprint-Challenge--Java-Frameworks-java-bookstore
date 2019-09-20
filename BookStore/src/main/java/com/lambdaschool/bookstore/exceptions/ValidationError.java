@@ -1,4 +1,4 @@
-package com.lambdaschool.starthere.exceptions;
+package com.lambdaschool.bookstore.exceptions;
 
 public class ValidationError
 {

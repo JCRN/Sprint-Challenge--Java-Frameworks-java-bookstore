@@ -1,6 +1,7 @@
-package com.lambdaschool.starthere.controllers;
+package com.lambdaschool.bookstore.controllers;
 
-import com.lambdaschool.starthere.models.APIOpenLibrary;
+import com.lambdaschool.bookstore.models.APIOpenLibrary;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.ParameterizedTypeReference;

@@ -1,4 +1,4 @@
-package com.lambdaschool.starthere.config;
+package com.lambdaschool.bookstore.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

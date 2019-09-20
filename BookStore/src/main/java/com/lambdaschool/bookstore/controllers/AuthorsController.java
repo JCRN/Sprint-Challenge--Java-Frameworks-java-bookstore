@@ -1,7 +1,7 @@
-package com.lambdaschool.starthere.controllers;
+package com.lambdaschool.bookstore.controllers;
 
-import com.lambdaschool.starthere.models.Authors;
-import com.lambdaschool.starthere.services.AuthorsService;
+import com.lambdaschool.bookstore.models.Authors;
+import com.lambdaschool.bookstore.services.AuthorsService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;

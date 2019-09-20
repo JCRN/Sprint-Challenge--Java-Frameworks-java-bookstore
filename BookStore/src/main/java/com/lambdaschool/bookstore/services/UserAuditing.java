@@ -1,4 +1,4 @@
-package com.lambdaschool.starthere.services;
+package com.lambdaschool.bookstore.services;
 
 import org.springframework.data.domain.AuditorAware;
 import org.springframework.security.core.Authentication;
