@@ -15,7 +15,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @SpringBootApplication
 public class StartHereApplication
 {
-    private static final Logger logger = LoggerFactory.getLogger(com.lambdaschool.starthere.BookStoreApplication.class);
+    private static final Logger logger = LoggerFactory.getLogger(com.lambdaschool.bookstore.BookStoreApplication.class);
     private static boolean stop = false;
 
     @Autowired
@@ -37,7 +37,7 @@ public class StartHereApplication
 
         if (!stop)
         {
-            ApplicationContext ctx = SpringApplication.run(com.lambdaschool.starthere.BookStoreApplication.class, args);
+            ApplicationContext ctx = SpringApplication.run(com.lambdaschool.bookstore.BookStoreApplication.class, args);
 
             DispatcherServlet dispatcherServlet = (DispatcherServlet) ctx.getBean("dispatcherServlet");
             dispatcherServlet.setThrowExceptionIfNoHandlerFound(true);

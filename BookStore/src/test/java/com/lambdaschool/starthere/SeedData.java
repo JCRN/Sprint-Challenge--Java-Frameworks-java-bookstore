@@ -1,11 +1,11 @@
 package com.lambdaschool.starthere;
 
-import com.lambdaschool.starthere.models.Role;
-import com.lambdaschool.starthere.models.User;
-import com.lambdaschool.starthere.models.UserRoles;
-import com.lambdaschool.starthere.models.Useremail;
-import com.lambdaschool.starthere.services.RoleService;
-import com.lambdaschool.starthere.services.UserService;
+import com.lambdaschool.bookstore.models.Role;
+import com.lambdaschool.bookstore.models.User;
+import com.lambdaschool.bookstore.models.UserRoles;
+import com.lambdaschool.bookstore.models.Useremail;
+import com.lambdaschool.bookstore.services.RoleService;
+import com.lambdaschool.bookstore.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -22,7 +22,6 @@ public class SeedData implements CommandLineRunner
 
     @Autowired
     UserService userService;
-
 
     @Override
     public void run(String[] args) throws Exception
